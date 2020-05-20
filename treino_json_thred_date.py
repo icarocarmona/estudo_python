@@ -25,7 +25,7 @@ class TR5:
 
     def treino_json(self):
 
-        with open('C:/Users/tr_ialmeida/Downloads/python-workspace/elastic/treino.json') as fh:
+        with open('treino.json') as fh:
             a = json.load(fh)
             for count, val in enumerate(a["objArray"]):
                 # print(val)
